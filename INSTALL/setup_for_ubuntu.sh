@@ -15,10 +15,12 @@ sudo apt-get install -y libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.
 
 # telegram client 다운로드
 git clone --recursive https://github.com/vysheng/tg.git && \
+
 # telegram client 컴파일
 cd tg && \
 ./configure && \
 make && \
+
 # 서버 모니터링 리소스 다운로드
 git clone https://github.com/t2sc0m/telegram_bot.git bot
 
@@ -44,3 +46,9 @@ echo "  cd /tmp/tg/bot                                            "
 echo "  vi bot.lua                                                "
 echo "  11: auth_phone  = { ["국가번호를포함한전화번호"] = true } "
 echo "------------------------------------------------------------"
+
+# BOT스크립트 실행안내
+echo "----------------------------------"
+echo "   실행은 sudo없이 실행 해주세요. "
+echo "   $ /etc/init.d/telegramd start  "
+echo "----------------------------------"

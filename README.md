@@ -25,7 +25,7 @@ $ .....sorry
 ## Usage
 ### Process Control
 ```shell
-$ sudo /etc/init.d/telegramd {start|stop|restart|status}
+$ /etc/init.d/telegramd {start|stop|restart|status}
 ```  
 ### Test
 ```shell
