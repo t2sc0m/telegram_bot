@@ -31,3 +31,6 @@ function ShellMode(user_id, cmd, arg)
 
 	send_msg(user_id, result, ok_cb, false)
 end
+
+
+

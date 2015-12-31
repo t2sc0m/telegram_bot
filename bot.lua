@@ -28,6 +28,7 @@ bot_path        = "/tmp/tg/bot/"
 
 
 require( "bot/common" )      -- common.lua 를 가져온다
+require( "bot/shell" )	     -- Shell Mode 스크립트
 
 function DefaultMessage(user_id, cmd)
     local msg = '[' .. cmd .. '] 등록 되지 않은 키워드입니다, help 를 입력하세요'
@@ -43,7 +44,7 @@ end
 -- cmd 의 문자열을 비교 하여 각각 함수를 호출 하는 기능을 한다.
 -- 앞으로 BOT 명령어는 이곳에 추가한다.
 function msg_processing(user_id, cmd, arg)
-	if ( cmd == "쉘모드" )		then	shell_flag = 1; send_msg(user_id, "쉘모드 활성화", ok_cb, false)
+	if     ( cmd == "쉘모드" )		then	shell_flag = 1; send_msg(user_id, "쉘모드 활성화", ok_cb, false)
 	elseif ( cmd == "쉘모드종료" )	then	shell_flag = 0; send_msg(user_id, "쉘모드 비활성화", ok_cb, false)
 	elseif ( shell_flag == 1 )		then	print("Shell Mode")
     elseif ( cmd == "help" )        then    SendHelp(user_id)                 -- 사용 방법 Text 파일 전송
@@ -163,3 +164,7 @@ end
     -- ex: send_msg(user_id, '메시지', ok_cb, false)
 function ok_cb(extra, success, result)
 end
+
+
+
+
