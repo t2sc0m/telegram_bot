@@ -6,17 +6,17 @@
 ## Installation Guide
 ### Ubuntu
 ```shell
+$ cd INSTALL
 $ ./setup_for_ubuntu.sh
 ```
 ### CentOS
 ```shell
 $ .....sorry 
 ```
-
-
-
-
-
-
+---
+## USAGE
+```shell
+$ sudo /etc/init.d/telegramd {start|stop|restart|status}
+```
 
 Ref. http://blog.acidpop.kr/

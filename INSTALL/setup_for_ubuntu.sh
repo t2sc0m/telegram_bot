@@ -11,6 +11,9 @@ cd tg && \
 make && \
 git clone https://github.com/t2sc0m/telegram_bot.git bot
 
+cp -vf /tmp/tg/bot/SHELL/tg.sh /tmp/tg/
+sudo cp -vf /tmp/tg/bot/SHELL/telegramd /etc/init.d/
+
 echo "---------------------------------------------------------"
 echo "  다음 명령어를 실행한 후 전화번호 인증을 받아주세요."
 echo " cd /tmp/tg"
