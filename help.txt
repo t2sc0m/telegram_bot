@@ -1,0 +1,9 @@
+﻿Telegram BOT Help
+
+사용방법 : Command 
+
+Command List
+	쉘모드
+		- Shell command 모드 전환, SSH로 접속해서 사용하는 명령어 지원 (rm 제외)
+	쉘모드종료
+		- 쉘모드를 종료한다.
