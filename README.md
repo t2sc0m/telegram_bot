@@ -14,9 +14,17 @@ $ ./setup_for_ubuntu.sh
 $ .....sorry 
 ```
 ---
-## USAGE
+## Directory Info
+- /tmp/tg             : telegram client
+- /tmp/tg/bot         : bot script
+- /tmp/tg/bot/logs    : bot log 
+- /tmp/tg/bot/SHELL   : execute scripts
+- /tmp/tg/bot/INSTALL : install script
+---
+## Usage
 ```shell
 $ sudo /etc/init.d/telegramd {start|stop|restart|status}
 ```
+---
 
 Ref. http://blog.acidpop.kr/
