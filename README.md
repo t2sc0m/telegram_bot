@@ -39,5 +39,11 @@ help : 도움말 표시
 쉘모드종료 : 위의 쉘모드를 종료
 ```
 ---
+## Uninstall
+```shell
+$ cd /tmp/tg/bot/INSTALL
+$ ./uninstall.sh
+```
+---
 
 Ref. http://blog.acidpop.kr/
