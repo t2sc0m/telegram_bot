@@ -18,8 +18,9 @@ $ .....sorry
 - /tmp/tg             : telegram client
 - /tmp/tg/bot         : bot script
 - /tmp/tg/bot/logs    : bot log 
-- /tmp/tg/bot/SHELL   : execute scripts  
+- /tmp/tg/bot/SHELL   : execute scripts
 - /tmp/tg/bot/INSTALL : install script  
+  
 ---
 ## Usage
 ```shell
