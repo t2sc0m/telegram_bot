@@ -11,7 +11,7 @@ cd /tmp
 
 # 패키지 저장소 업데이트 및 필요 패키지 인스톨
 sudo apt-get update
-sudo apt-get install -y libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make git-core python2.7-dev libjansson-dev 
+sudo apt-get install -y libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make git-core python2.7-dev libjansson-dev netcat
 
 # telegram client 다운로드
 git clone --recursive https://github.com/vysheng/tg.git && \

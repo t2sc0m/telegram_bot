@@ -23,8 +23,20 @@ $ .....sorry
   
 ---
 ## Usage
+### Process Control
 ```shell
 $ sudo /etc/init.d/telegramd {start|stop|restart|status}
+```  
+### Test
+```shell
+$ echo "msg 본인아이디 테스트메세지" | nc localhost 8888
+```  
+### 실전!!
+#### 텔레그램 메신저에서 본인아이디와의 채팅창에서 명령어를 입력
+```shell
+help : 도움말 표시
+쉘모드 : 설치한 서버에서 쉘 명령어가 실행 가능한 모드로 변경
+쉘모드종료 : 위의 쉘모드를 종료
 ```
 ---
 
